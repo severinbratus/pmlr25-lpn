@@ -24,7 +24,7 @@ class IOPairSetEncoder(nn.Module):
         # x: (B*, N, 2)
         x_phi = self.phi(x)                 # (B*, N, H)
         # sum over the N-axis (sum set elements' representations)
-        x_sum = x_phi.sum(dim=-2)            # (B*, H)
+        x_sum = x_phi.mean(dim=-2)            # (B*, H)
         common = self.rho_0(x_sum)            # (B*, H)
         mu = self.rho_1(common)               # (B*, H)
         logvar = self.rho_2(common)
