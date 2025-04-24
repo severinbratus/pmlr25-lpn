@@ -3,6 +3,7 @@ import numpy as np
 import os
 import random
 
+from torch import Tensor
 
 class SineDataGenerator(object):
     """
@@ -19,7 +20,6 @@ class SineDataGenerator(object):
         self.num_samples_per_class = num_samples_per_class
         self.num_classes = 1  # by default 1 (only relevant for classification problems)
 
-        self.generate = self.generate_sinusoid_batch
         self.amp_range = config.get('amp_range', [0.1, 5.0])
         self.phase_range = config.get('phase_range', [0, np.pi])
         self.input_range = config.get('input_range', [-5.0, 5.0])
@@ -42,4 +42,7 @@ class SineDataGenerator(object):
                 init_inputs[:,input_idx:,0] = np.linspace(self.input_range[0], self.input_range[1], num=self.num_samples_per_class-input_idx, retstep=False)
             outputs[func] = amp[func] * np.sin(init_inputs[func]-phase[func])
         return init_inputs, outputs, amp, phase
+    
 
+    def generate(self, **kw) -> tuple[Tensor]:
+        return [Tensor(arr) for arr in self.generate_sinusoid_batch(**kw)]
