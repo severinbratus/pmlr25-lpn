@@ -1,4 +1,4 @@
-from utils import ReluNet
+from src.models.utils import ReluNet
 
 
 class Decoder(ReluNet):
