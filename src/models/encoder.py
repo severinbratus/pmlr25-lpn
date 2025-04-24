@@ -17,8 +17,8 @@ class IOPairSetEncoder(nn.Module):
         self.phi = phi
         # Output processor rho
         self.rho_0 = rho_0
-        self.rho_1 = rho_1
-        self.rho_2 = copy.deepcopy(rho_1)
+        self.rho_1 = rho_1  # predict mean
+        self.rho_2 = copy.deepcopy(rho_1)  # predict logvar
 
     def forward(self, x):
         # x: (B*, N, 2)
