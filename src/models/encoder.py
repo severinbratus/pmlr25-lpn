@@ -3,7 +3,7 @@ import torch.nn as nn
 
 import copy
 
-from src.models.utils import ReluNet
+from models.utils import ReluNet
 
 
 class IOPairSetEncoder(nn.Module):

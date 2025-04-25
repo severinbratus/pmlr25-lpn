@@ -1,7 +1,7 @@
 import torch
 import torch.nn as nn
 
-from src.models.utils import make_leave_one_out
+from models.utils import make_leave_one_out
 
 
 class LPN(nn.Module):
@@ -35,40 +35,43 @@ class LPN(nn.Module):
         self.mse = nn.MSELoss()
 
 
-    def forward(self, pairs):
+    def forward(self, pairs, debug=False, K=0):
+        B, N, H = pairs.size(0), pairs.size(1), self.d_latent
 
         # pairs: (B, N, 2)
-        # Note: assuming d_input = d_output = 1
+        # NOTE: assuming d_input = d_output = 1
         # pairs_one_left_out: (B, N, N-1, 2)
-        ## print(f"{pairs.shape=}")
         pairs_one_left_out = make_leave_one_out(pairs, axis=1)
-        ## print(f"{pairs_one_left_out.shape=}")
+        if debug:
+            assert pairs_one_left_out.shape == (B, N, N-1, 2), f"{pairs_one_left_out.shape} != {(B, N, N-1, 2)}"
 
         # Encode the context IO pairs (one-left-out) into a latent
         # z_mu, z_logvar: (B, N, H)
         z_mu, z_logvar = self.encoder(pairs_one_left_out)
         ## print(f"{z_mu.shape=}")
-
-        assert z_mu.shape == z_logvar.shape
-        b, n = pairs.size(0), pairs.size(1)
-        assert z_mu.shape == (b, n, self.d_latent), f"{z_mu.shape} != {(b, n, self.d_latent)}"
+        if debug:
+            assert z_mu.shape == z_logvar.shape
+            assert z_mu.shape == (B, N, H), f"{z_mu.shape} != {(B, N, H)}"
 
         z_sample = self.sample_latents(z_mu, z_logvar)
         kl_loss = self.kl_divergence(z_mu, z_logvar)
-        
-        # TODO latent optimization
+
+        if K:
+            z_prime = self.gradient_ascent(z_sample, pairs, K, debug=debug)
+        else:
+            z_prime = z_sample
 
         # Decode the (target) inputs with the one-left-out latents into outputs
-        inputs = pairs[:, :, 0].unsqueeze(-1) # (B, N, 1)
-        z_inputs = torch.cat([z_sample, inputs], dim=-1)
+        xs = pairs[:, :, 0].unsqueeze(-1) # (B, N, 1)
+        z_xs = torch.cat([z_prime, xs], dim=-1)
 
         # outputs_pred: (B, N, 1)
-        outputs_pred = self.decoder(z_inputs)
+        ys_pred = self.decoder(z_xs)
 
-        outputs_true = pairs[:, :, 1].unsqueeze(-1)
+        ys_true = pairs[:, :, 1].unsqueeze(-1)
 
         # NOTE: assuming a variance of 1. for intuition see https://chatgpt.com/share/6809ffa6-7710-8000-bef7-b73d0116c0e2
-        recon_loss = .5 * self.mse(outputs_pred, outputs_true)
+        recon_loss = .5 * self.mse(ys_pred, ys_true)
 
         # recon_loss is wrt the decoder (p_theta)
         # kl_loss is wrt the encoder (q_phi)
@@ -78,10 +81,66 @@ class LPN(nn.Module):
             'z_mu': z_mu,
             'z_logvar': z_logvar,
             'z_sample': z_sample,
-            'outputs_pred': outputs_pred,
+            'z_prime': z_prime,
+            'ys_pred': ys_pred,
         }
 
         return aux, loss
+
+
+    def decode(self, z, xs):
+        """Decode a batch of inputs with a single latent z"""
+        # z: (H,)
+        # inputs: (B, 1)
+        B = xs.shape[0]
+        z_wide = z.unsqueeze(0).expand(B, -1)  # shape: (B, H)
+        z_xs = torch.cat([z_wide, xs], dim=-1)  # shape: (B, H + 1)
+        ys_pred = self.decoder(z_xs)
+        return ys_pred
+
+
+    def gradient_ascent(self, z_init, pairs, K, debug=False):
+        # z: (B, N, H)
+        # pairs: (B, N, 2)
+
+        z_prime = z_init
+
+        for k in range(K):
+            # Re-create z as a tensor parameter requiring gradients
+            z = z_init.detach().clone().requires_grad_(True)
+
+            # Compute 
+            mse = self.nll_fn(z, pairs, debug=debug)
+            z_grads = torch.autograd.grad(torch.sum(mse), z)[0]
+            assert z_grads.shape == z.shape, f"{z_grads.shape} != {z.shape}"
+
+            z_prime -= self.alpha * z_grads.detach()
+        
+        return z_prime
+    
+
+    def nll_fn(self, z, pairs, debug=False):
+        B = pairs.size(0)
+        N = pairs.size(1)
+        H = z.size(2)
+
+        # NOTE: olo = one left out
+        xs = pairs[:, :, 0].unsqueeze(-1) # (B, N, 1)
+        xs_olo = make_leave_one_out(xs, axis=1) # (B, N, N-1, 1)
+        ys = pairs[:, :, 1].unsqueeze(-1) # (B, N, 1)
+        ys_olo = make_leave_one_out(ys, axis=1) # (B, N, N-1, 1)
+
+        z_wide = z.unsqueeze(2).expand(-1, -1, N-1, -1) # (B, N, N-1, H)
+        assert z_wide.shape == (B, N, N-1, H), f"{z_wide.shape} != {(B, N, N-1, H)}"
+        z_xs_olo = torch.cat([z_wide, xs_olo], dim=-1) # (B, N, N-1, H+1)
+        assert z_xs_olo.shape == (B, N, N-1, H+1), f"{z_xs_olo.shape} != {(B, N, N-1, H+1)}"
+        ys_hat_olo = self.decoder(z_xs_olo) # (B, N, N-1, 1)
+        assert ys_hat_olo.shape == ys_olo.shape
+        assert ys_hat_olo.shape == (B, N, N-1, 1), f"{ys_hat_olo.shape} != {(B, N, N-1, 1)}"
+
+        mse = nn.functional.mse_loss(ys_hat_olo, ys_olo, reduction='none').sum(dim=-2) # (B, N, 1)
+        if debug: print(f"{torch.sum(mse).item()=}")
+        return mse
 
 
     def sample_latents(self, z_mu, z_logvar):
@@ -95,5 +154,4 @@ class LPN(nn.Module):
         # KL divergence between N(z_mu, exp(z_logvar)) and N(0, I)
         kl = -0.5 * torch.sum(1 + z_logvar - z_mu.pow(2) - z_logvar.exp(), dim=-1)  # shape: (B*)
         return kl.mean()
-
 
