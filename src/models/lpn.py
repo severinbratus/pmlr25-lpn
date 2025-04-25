@@ -78,11 +78,12 @@ class LPN(nn.Module):
         loss = recon_loss + self.beta * kl_loss
 
         aux = {
-            'z_mu': z_mu,
-            'z_logvar': z_logvar,
-            'z_sample': z_sample,
-            'z_prime': z_prime,
-            'ys_pred': ys_pred,
+            'z_mu': z_mu.detach().clone(),
+            'z_logvar': z_logvar.detach().clone(),
+            'z_sample': z_sample.detach().clone(),
+            'z_prime': z_prime.detach().clone(),
+            'ys_pred': ys_pred.detach().clone(),
+            'z_traj': self.z_traj if hasattr(self, 'z_traj') else None,
         }
 
         return aux, loss
@@ -93,6 +94,10 @@ class LPN(nn.Module):
         # z: (H,)
         # inputs: (B, 1)
         B = xs.shape[0]
+        # print(f"{z.shape=}")
+        # print(f"{xs.shape=}")
+        assert xs.shape == (B, 1), f"xs {xs.shape} != {(B, 1)}"
+        assert z.shape == (self.d_latent,), f"z {z.shape} != {(self.d_latent,)}"
         z_wide = z.unsqueeze(0).expand(B, -1)  # shape: (B, H)
         z_xs = torch.cat([z_wide, xs], dim=-1)  # shape: (B, H + 1)
         ys_pred = self.decoder(z_xs)
@@ -104,6 +109,8 @@ class LPN(nn.Module):
         # pairs: (B, N, 2)
 
         z_prime = z_init
+        if debug:
+            self.z_traj = [z_init.detach().clone()]
 
         for k in range(K):
             # Re-create z as a tensor parameter requiring gradients
@@ -112,9 +119,12 @@ class LPN(nn.Module):
             # Compute 
             mse = self.nll_fn(z, pairs, debug=debug)
             z_grads = torch.autograd.grad(torch.sum(mse), z)[0]
-            assert z_grads.shape == z.shape, f"{z_grads.shape} != {z.shape}"
 
             z_prime -= self.alpha * z_grads.detach()
+        
+            if debug:
+                assert z_grads.shape == z.shape, f"{z_grads.shape} != {z.shape}"
+                self.z_traj.append(z_prime.detach().clone())
         
         return z_prime
     
@@ -131,15 +141,17 @@ class LPN(nn.Module):
         ys_olo = make_leave_one_out(ys, axis=1) # (B, N, N-1, 1)
 
         z_wide = z.unsqueeze(2).expand(-1, -1, N-1, -1) # (B, N, N-1, H)
-        assert z_wide.shape == (B, N, N-1, H), f"{z_wide.shape} != {(B, N, N-1, H)}"
         z_xs_olo = torch.cat([z_wide, xs_olo], dim=-1) # (B, N, N-1, H+1)
-        assert z_xs_olo.shape == (B, N, N-1, H+1), f"{z_xs_olo.shape} != {(B, N, N-1, H+1)}"
         ys_hat_olo = self.decoder(z_xs_olo) # (B, N, N-1, 1)
-        assert ys_hat_olo.shape == ys_olo.shape
-        assert ys_hat_olo.shape == (B, N, N-1, 1), f"{ys_hat_olo.shape} != {(B, N, N-1, 1)}"
+        if debug:
+            assert z_wide.shape == (B, N, N-1, H), f"{z_wide.shape} != {(B, N, N-1, H)}"
+            assert z_xs_olo.shape == (B, N, N-1, H+1), f"{z_xs_olo.shape} != {(B, N, N-1, H+1)}"
+            assert ys_hat_olo.shape == ys_olo.shape
+            assert ys_hat_olo.shape == (B, N, N-1, 1), f"{ys_hat_olo.shape} != {(B, N, N-1, 1)}"
 
         mse = nn.functional.mse_loss(ys_hat_olo, ys_olo, reduction='none').sum(dim=-2) # (B, N, 1)
-        if debug: print(f"{torch.sum(mse).item()=}")
+        if debug:
+            print(f"{torch.sum(mse).item()=}")
         return mse
 
 
