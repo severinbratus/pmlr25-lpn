@@ -27,6 +27,7 @@ class LPNVisualizer:
             model_path: Path to the saved model weights
             device: Device to run the model on ('cuda' or 'cpu')
         """
+        assert d_latent == 2, "only 2D latent space is supported for visualization"
         self.d_latent = d_latent
         self.device = torch.device(
             device if device else ("cuda" if torch.cuda.is_available() else "cpu")
@@ -194,7 +195,9 @@ class LPNVisualizer:
         num_samples: int = 10,
         use_true_mse: bool = False,
     ) -> None:
-        """Generate and visualize samples with latent space plots.
+        """Generate data for latent space plots, using one amplitude and 
+        phase (batchsize = 1). Leave one out is used to generate the
+        support set and test set.
 
         Args:
             num_samples: Number of samples to generate
@@ -205,10 +208,7 @@ class LPNVisualizer:
         xs, ys, amp, phase = self.generate_data(num_samples)
         io_pairs = torch.cat([xs, ys], dim=-1).to(self.device)
 
-        # Process data
         xy_support, x_test, y_test, z_mu, z_traj = self.process_data(io_pairs)
-
-        # Create grid and compute MSE
         grid2d = self.create_latent_grid()  # (resolution**2, 1, 2)
 
         # match grid size for cat
@@ -221,13 +221,15 @@ class LPNVisualizer:
         x_test = x_test.expand(shape_expand + [x_test.size()[-1]])
         z_xs = torch.cat([grid2d, x_test], dim=-1)  # (resolution**2, num_samples, 3)
 
-        # Use true MSE
+        # true MSE
         y_pred = self.lpn.decoder(z_xs)  # (resolution**2, num_samples, 1)
         mse_test = (y_pred - y_test) ** 2
 
-        # Use predicted MSE
+        # predicted MSE (optimization loop)
         mse_support = self.lpn.nll_fn(grid2d, io_pairs.expand_as(grid2d))
         z_traj_cat = torch.cat(z_traj, dim=0)  # (K, num_samples, d_latent)
+        
+        # MSE trajectory, ie. objective function
         mse_traj = self.lpn.nll_fn(z_traj_cat, io_pairs.expand_as(z_traj_cat))
 
         # Plot each sample
@@ -268,7 +270,7 @@ class LPNVisualizer:
             z_traj=z_traj,
             sample=sample,
             log_scale=log_scale,
-            title="MSE Test",
+            title="True Test-MSE",
         )
 
         self.plot_latent_space(
@@ -278,5 +280,5 @@ class LPNVisualizer:
             z_traj=z_traj,
             sample=sample,
             log_scale=log_scale,
-            title="MSE Support",
+            title="MSE of support samples (optimization target)",
         )
