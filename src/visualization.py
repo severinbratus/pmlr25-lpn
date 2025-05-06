@@ -26,9 +26,11 @@ class LPNVisualizer:
             numstep: Number of steps for the model
             model_path: Path to the saved model weights
             device: Device to run the model on ('cuda' or 'cpu')
+            resolution: Resolution of the latent space grid
         """
         assert d_latent == 2, "only 2D latent space is supported for visualization"
         self.d_latent = d_latent
+        self.numstep = numstep
         self.device = torch.device(
             device if device else ("cuda" if torch.cuda.is_available() else "cpu")
         )
@@ -90,7 +92,7 @@ class LPNVisualizer:
             io_pairs: Input-output pairs tensor
 
         Returns:
-            Tuple of (leave_one_out, left_one_out, left_one_out_y_true, z_mu)
+            Tuple of (xy_support, x_test, y_test, z_mu, z_traj)
         """
         xy_support = make_leave_one_out(io_pairs, axis=1)
         x_test = io_pairs[:, :, 0].unsqueeze(-1)
