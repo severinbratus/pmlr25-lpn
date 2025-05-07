@@ -1,0 +1,34 @@
+{"time":"2025-05-07T20:21:02.038468+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\wandb\\run-20250507_202102-pgy9x5g2\\logs\\debug-core.log"}
+{"time":"2025-05-07T20:21:02.284259+02:00","level":"INFO","msg":"created new stream","id":"pgy9x5g2"}
+{"time":"2025-05-07T20:21:02.284259+02:00","level":"INFO","msg":"stream: started","id":"pgy9x5g2"}
+{"time":"2025-05-07T20:21:02.284259+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pgy9x5g2"}
+{"time":"2025-05-07T20:21:02.284259+02:00","level":"INFO","msg":"sender: started","stream_id":"pgy9x5g2"}
+{"time":"2025-05-07T20:21:02.284259+02:00","level":"INFO","msg":"handler: started","stream_id":"pgy9x5g2"}
+{"time":"2025-05-07T20:21:02.7404+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T20:21:17.7491562+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:21:32.7488169+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:21:47.7505826+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:22:02.7520667+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:22:17.7517178+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:22:32.753419+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:22:47.7549121+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:23:02.7537698+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:23:17.7561054+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:23:32.7557001+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:23:47.7556765+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:24:02.7595984+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:24:17.7589178+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:24:32.7605965+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:24:47.8095878+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:25:02.7608134+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:25:17.7598758+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:25:32.7632428+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:25:41.9547642+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T20:25:41.9547642+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T20:25:42.726935+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T20:25:42.96099+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 291-300, summary, console lines 32-32","runtime_seconds":0.2340451}],"total_operations":1}}
+{"time":"2025-05-07T20:25:42.9730746+02:00","level":"INFO","msg":"stream: closing","id":"pgy9x5g2"}
+{"time":"2025-05-07T20:25:42.9730746+02:00","level":"INFO","msg":"handler: closed","stream_id":"pgy9x5g2"}
+{"time":"2025-05-07T20:25:42.9730746+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pgy9x5g2"}
+{"time":"2025-05-07T20:25:42.9730746+02:00","level":"INFO","msg":"sender: closed","stream_id":"pgy9x5g2"}
+{"time":"2025-05-07T20:25:42.9730746+02:00","level":"INFO","msg":"stream: closed","id":"pgy9x5g2"}

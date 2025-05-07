@@ -1,0 +1,45 @@
+{"time":"2025-05-07T16:48:51.2865802+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\wandb\\run-20250507_164851-t6cjpg0c\\logs\\debug-core.log"}
+{"time":"2025-05-07T16:48:51.6219373+02:00","level":"INFO","msg":"created new stream","id":"t6cjpg0c"}
+{"time":"2025-05-07T16:48:51.6219373+02:00","level":"INFO","msg":"stream: started","id":"t6cjpg0c"}
+{"time":"2025-05-07T16:48:51.6411537+02:00","level":"INFO","msg":"handler: started","stream_id":"t6cjpg0c"}
+{"time":"2025-05-07T16:48:51.6411537+02:00","level":"INFO","msg":"sender: started","stream_id":"t6cjpg0c"}
+{"time":"2025-05-07T16:48:51.6411537+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"t6cjpg0c"}
+{"time":"2025-05-07T16:48:51.9628096+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T16:49:06.9768369+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:49:21.9789806+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:49:36.9759121+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:49:51.976913+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:50:06.9790144+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:50:21.9790195+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:50:36.9784779+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:50:51.9862097+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:51:06.9803811+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:51:21.9821889+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:51:36.9821238+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:51:51.9838803+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:52:06.986799+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:52:21.9808125+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:52:36.9801304+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:52:51.9811159+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:53:06.9831547+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:53:21.9825964+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:53:36.9843675+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:53:51.9853766+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:54:06.9866944+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:54:21.9877437+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:54:36.9871766+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:54:51.988858+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:55:06.98915+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:55:21.9988775+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:55:36.9879247+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:55:51.9902156+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:56:06.9952001+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T16:56:13.7141847+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T16:56:13.7141847+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T16:56:14.6114279+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T16:56:14.7216856+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 298-300, summary, console lines 32-32","runtime_seconds":0.1102553}],"total_operations":1}}
+{"time":"2025-05-07T16:56:14.8529866+02:00","level":"INFO","msg":"stream: closing","id":"t6cjpg0c"}
+{"time":"2025-05-07T16:56:14.8529866+02:00","level":"INFO","msg":"handler: closed","stream_id":"t6cjpg0c"}
+{"time":"2025-05-07T16:56:14.8529866+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"t6cjpg0c"}
+{"time":"2025-05-07T16:56:14.8545288+02:00","level":"INFO","msg":"sender: closed","stream_id":"t6cjpg0c"}
+{"time":"2025-05-07T16:56:14.856527+02:00","level":"INFO","msg":"stream: closed","id":"t6cjpg0c"}

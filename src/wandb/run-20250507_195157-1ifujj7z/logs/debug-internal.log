@@ -1,0 +1,34 @@
+{"time":"2025-05-07T19:51:57.0904159+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\wandb\\run-20250507_195157-1ifujj7z\\logs\\debug-core.log"}
+{"time":"2025-05-07T19:51:57.4691014+02:00","level":"INFO","msg":"created new stream","id":"1ifujj7z"}
+{"time":"2025-05-07T19:51:57.4697002+02:00","level":"INFO","msg":"stream: started","id":"1ifujj7z"}
+{"time":"2025-05-07T19:51:57.4697002+02:00","level":"INFO","msg":"sender: started","stream_id":"1ifujj7z"}
+{"time":"2025-05-07T19:51:57.4697002+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"1ifujj7z"}
+{"time":"2025-05-07T19:51:57.4696064+02:00","level":"INFO","msg":"handler: started","stream_id":"1ifujj7z"}
+{"time":"2025-05-07T19:51:57.733524+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T19:52:12.7392997+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:52:27.7402597+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:52:42.7409507+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:52:57.7410623+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:53:12.7420577+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:53:27.7418135+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:53:42.7411978+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:53:57.7422112+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:54:12.740885+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:54:27.7422263+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:54:42.740521+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:54:57.7407542+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:55:12.7404799+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:55:27.7407216+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:55:42.7429765+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:55:57.7412288+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:56:12.741231+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:56:27.7409359+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T19:56:30.8592658+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T19:56:30.8592658+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T19:56:31.8046268+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T19:56:31.8780686+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 297-300, summary, console lines 32-32","runtime_seconds":0.0734415}],"total_operations":1}}
+{"time":"2025-05-07T19:56:32.080217+02:00","level":"INFO","msg":"stream: closing","id":"1ifujj7z"}
+{"time":"2025-05-07T19:56:32.080217+02:00","level":"INFO","msg":"handler: closed","stream_id":"1ifujj7z"}
+{"time":"2025-05-07T19:56:32.080217+02:00","level":"INFO","msg":"sender: closed","stream_id":"1ifujj7z"}
+{"time":"2025-05-07T19:56:32.080217+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"1ifujj7z"}
+{"time":"2025-05-07T19:56:32.080217+02:00","level":"INFO","msg":"stream: closed","id":"1ifujj7z"}

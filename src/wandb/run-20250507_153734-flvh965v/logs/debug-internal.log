@@ -1,0 +1,37 @@
+{"time":"2025-05-07T15:37:34.2092038+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\wandb\\run-20250507_153734-flvh965v\\logs\\debug-core.log"}
+{"time":"2025-05-07T15:37:35.8574548+02:00","level":"INFO","msg":"created new stream","id":"flvh965v"}
+{"time":"2025-05-07T15:37:35.8579718+02:00","level":"INFO","msg":"stream: started","id":"flvh965v"}
+{"time":"2025-05-07T15:37:35.8579718+02:00","level":"INFO","msg":"handler: started","stream_id":"flvh965v"}
+{"time":"2025-05-07T15:37:35.8579718+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"flvh965v"}
+{"time":"2025-05-07T15:37:35.8579718+02:00","level":"INFO","msg":"sender: started","stream_id":"flvh965v"}
+{"time":"2025-05-07T15:37:36.1294569+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T15:37:51.1401013+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:38:06.1382901+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:38:21.1387847+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:38:36.1378415+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:38:51.1385331+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:39:06.1366444+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:39:21.1380348+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:39:36.1384232+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:39:51.1361993+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:40:06.1380547+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:40:21.1379622+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:40:36.1376003+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:40:51.1382784+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:41:06.1415893+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:41:21.1374661+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:41:36.1395506+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:41:51.1396887+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:42:06.1393065+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:42:21.1419237+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:42:36.1406208+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:42:51.1432671+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T15:42:52.6933728+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T15:42:52.6933728+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T15:42:53.2912588+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T15:42:53.4787686+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-07T15:42:53.4892199+02:00","level":"INFO","msg":"stream: closing","id":"flvh965v"}
+{"time":"2025-05-07T15:42:53.4892199+02:00","level":"INFO","msg":"sender: closed","stream_id":"flvh965v"}
+{"time":"2025-05-07T15:42:53.4897534+02:00","level":"INFO","msg":"handler: closed","stream_id":"flvh965v"}
+{"time":"2025-05-07T15:42:53.4897534+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"flvh965v"}
+{"time":"2025-05-07T15:42:53.4897534+02:00","level":"INFO","msg":"stream: closed","id":"flvh965v"}

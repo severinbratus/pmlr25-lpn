@@ -5,6 +5,10 @@ import random
 
 from torch import Tensor
 
+SEED = 1
+np.random.seed(SEED)
+
+
 class SineDataGenerator(object):
     """
     Data Generator capable of generating batches of sinusoid or Omniglot data.

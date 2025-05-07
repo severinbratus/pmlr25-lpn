@@ -1,0 +1,34 @@
+{"time":"2025-05-07T20:28:29.0448306+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\wandb\\run-20250507_202829-zf212z22\\logs\\debug-core.log"}
+{"time":"2025-05-07T20:28:29.3000367+02:00","level":"INFO","msg":"created new stream","id":"zf212z22"}
+{"time":"2025-05-07T20:28:29.3000367+02:00","level":"INFO","msg":"stream: started","id":"zf212z22"}
+{"time":"2025-05-07T20:28:29.3000367+02:00","level":"INFO","msg":"handler: started","stream_id":"zf212z22"}
+{"time":"2025-05-07T20:28:29.3000367+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"zf212z22"}
+{"time":"2025-05-07T20:28:29.3000367+02:00","level":"INFO","msg":"sender: started","stream_id":"zf212z22"}
+{"time":"2025-05-07T20:28:29.532884+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T20:28:44.539683+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:28:59.5415071+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:29:14.5406573+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:29:29.5432145+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:29:44.5427556+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:29:59.5436105+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:30:14.5432057+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:30:29.5439141+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:30:44.54592+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:30:59.544901+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:31:14.5446852+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:31:29.5472443+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:31:44.546251+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:31:59.5467226+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:32:14.5461059+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:32:29.5479881+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:32:44.5480132+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:32:59.549569+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:33:03.0425471+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T20:33:03.0425471+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T20:33:03.8242262+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T20:33:03.9935292+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-07T20:33:04.0011041+02:00","level":"INFO","msg":"stream: closing","id":"zf212z22"}
+{"time":"2025-05-07T20:33:04.0011041+02:00","level":"INFO","msg":"handler: closed","stream_id":"zf212z22"}
+{"time":"2025-05-07T20:33:04.0011041+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"zf212z22"}
+{"time":"2025-05-07T20:33:04.0011041+02:00","level":"INFO","msg":"sender: closed","stream_id":"zf212z22"}
+{"time":"2025-05-07T20:33:04.0011041+02:00","level":"INFO","msg":"stream: closed","id":"zf212z22"}

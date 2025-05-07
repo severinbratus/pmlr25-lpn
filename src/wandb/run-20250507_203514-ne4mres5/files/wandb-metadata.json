@@ -1,0 +1,42 @@
+{
+  "os": "Windows-10-10.0.19045-SP0",
+  "python": "CPython 3.10.17",
+  "startedAt": "2025-05-07T18:35:14.037640Z",
+  "program": "c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\lpn4sine_deterministic.ipynb",
+  "codePath": "src\\lpn4sine_deterministic.ipynb",
+  "git": {
+    "remote": "https://github.com/severinbratus/pmlr25-lpn.git",
+    "commit": "2ebe1d27a3b8bb4533a5ce439fb72f5dac40e026"
+  },
+  "email": "stephen.marcou@gmail.com",
+  "root": "c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src",
+  "host": "slabhg180",
+  "executable": "c:\\Users\\smarcou\\AppData\\Local\\miniconda3\\envs\\lpn_py310\\python.exe",
+  "codePathLocal": "lpn4sine_deterministic.ipynb",
+  "cpu_count": 4,
+  "cpu_count_logical": 8,
+  "gpu": "Quadro P620",
+  "gpu_count": 1,
+  "disk": {
+    "/": {
+      "total": "510900826112",
+      "used": "327830929408"
+    }
+  },
+  "memory": {
+    "total": "8437858304"
+  },
+  "cpu": {
+    "count": 4,
+    "countLogical": 8
+  },
+  "gpu_nvidia": [
+    {
+      "name": "Quadro P620",
+      "memoryTotal": "2147483648",
+      "cudaCores": 512,
+      "architecture": "Pascal"
+    }
+  ],
+  "cudaVersion": "12.5"
+}

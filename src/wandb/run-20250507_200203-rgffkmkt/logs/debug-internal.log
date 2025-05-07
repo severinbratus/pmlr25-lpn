@@ -1,0 +1,34 @@
+{"time":"2025-05-07T20:02:03.3203481+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"c:\\Users\\smarcou\\Documents\\pmlr25-lpn\\src\\wandb\\run-20250507_200203-rgffkmkt\\logs\\debug-core.log"}
+{"time":"2025-05-07T20:02:03.5766328+02:00","level":"INFO","msg":"created new stream","id":"rgffkmkt"}
+{"time":"2025-05-07T20:02:03.5766328+02:00","level":"INFO","msg":"handler: started","stream_id":"rgffkmkt"}
+{"time":"2025-05-07T20:02:03.5766328+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"rgffkmkt"}
+{"time":"2025-05-07T20:02:03.5773316+02:00","level":"INFO","msg":"stream: started","id":"rgffkmkt"}
+{"time":"2025-05-07T20:02:03.5773316+02:00","level":"INFO","msg":"sender: started","stream_id":"rgffkmkt"}
+{"time":"2025-05-07T20:02:03.8097045+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-07T20:02:18.8152204+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:02:33.8169768+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:02:48.8177221+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:03:03.8166783+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:03:18.8189453+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:03:33.8184118+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:03:48.8183656+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:04:03.8303095+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:04:18.8174536+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:04:33.8183998+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:04:48.8162498+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:05:03.8179985+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:05:18.8168904+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:05:33.8175447+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:05:48.816905+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:06:03.8167242+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:06:18.8181154+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:06:33.8178714+02:00","level":"ERROR","msg":"monitor: error sampling metrics: Incorrect function."}
+{"time":"2025-05-07T20:06:41.73633+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-07T20:06:41.73633+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-07T20:06:42.4662328+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-07T20:06:42.7517623+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 292-300, summary, console lines 32-32","runtime_seconds":0.2855288}],"total_operations":1}}
+{"time":"2025-05-07T20:06:42.8033552+02:00","level":"INFO","msg":"stream: closing","id":"rgffkmkt"}
+{"time":"2025-05-07T20:06:42.8033552+02:00","level":"INFO","msg":"handler: closed","stream_id":"rgffkmkt"}
+{"time":"2025-05-07T20:06:42.8033552+02:00","level":"INFO","msg":"sender: closed","stream_id":"rgffkmkt"}
+{"time":"2025-05-07T20:06:42.8033552+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"rgffkmkt"}
+{"time":"2025-05-07T20:06:42.8033552+02:00","level":"INFO","msg":"stream: closed","id":"rgffkmkt"}
