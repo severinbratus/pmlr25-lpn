@@ -1,0 +1,34 @@
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_setup.py:_flush():68] Current SDK version is 0.19.10
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_setup.py:_flush():68] Configure stats pid to 90854
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_setup.py:_flush():68] Loading settings from /Users/stephenmarcou/.config/wandb/settings
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_setup.py:_flush():68] Loading settings from /Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/settings
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_setup.py:_flush():68] Loading settings from environment variables
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250506_162901-3rzgwa4k/logs/debug.log
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250506_162901-3rzgwa4k/logs/debug-internal.log
+2025-05-06 16:29:01,923 INFO    MainThread:90854 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x16b5c9a20>
+2025-05-06 16:29:01,924 INFO    MainThread:90854 [wandb_init.py:init():852] calling init triggers
+2025-05-06 16:29:01,924 INFO    MainThread:90854 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-06 16:29:01,924 INFO    MainThread:90854 [wandb_init.py:init():893] starting backend
+2025-05-06 16:29:01,924 INFO    MainThread:90854 [wandb_init.py:init():897] sending inform_init request
+2025-05-06 16:29:01,958 INFO    MainThread:90854 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-06 16:29:01,958 INFO    MainThread:90854 [wandb_init.py:init():907] backend started and connected
+2025-05-06 16:29:01,963 INFO    MainThread:90854 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-06 16:29:01,975 INFO    MainThread:90854 [wandb_init.py:init():1002] updated telemetry
+2025-05-06 16:29:02,000 INFO    MainThread:90854 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-06 16:29:03,191 INFO    MainThread:90854 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-06 16:29:03,323 INFO    MainThread:90854 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-06 16:29:03,323 INFO    MainThread:90854 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-06 16:29:03,323 INFO    MainThread:90854 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-06 16:29:03,323 INFO    MainThread:90854 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-06 16:29:03,326 INFO    MainThread:90854 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-06 16:29:03,327 INFO    MainThread:90854 [wandb_run.py:_finish():2314] finishing run stephen-marcou-eth-z-rich/pmlr25-lpn-src/3rzgwa4k
+2025-05-06 16:29:03,401 INFO    MainThread:90854 [jupyter.py:save_history():477] not saving jupyter history
+2025-05-06 16:29:03,401 INFO    MainThread:90854 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-05-06 16:29:03,401 INFO    MainThread:90854 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-05-06 16:29:03,401 INFO    MainThread:90854 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-05-06 16:29:03,401 INFO    MainThread:90854 [wandb_run.py:_restore():2513] restore
+2025-05-06 16:29:03,401 INFO    MainThread:90854 [wandb_run.py:_restore():2519] restore done
+2025-05-06 16:29:04,810 INFO    MainThread:90854 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-05-06 16:29:04,811 INFO    MainThread:90854 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-05-06 16:29:04,811 INFO    MainThread:90854 [wandb_run.py:_footer_sync_info():4121] logging synced files

@@ -200,6 +200,7 @@ class DeterministicLPN(nn.Module):
 
 
     def forward(self, pairs, debug=False, K=0):
+        # K flag for GA optimization
         B, N, H = pairs.size(0), pairs.size(1), self.d_latent
 
         # pairs: (B, N, 2)
