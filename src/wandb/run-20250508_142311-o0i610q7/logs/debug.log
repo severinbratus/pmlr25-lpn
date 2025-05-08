@@ -1,0 +1,29 @@
+2025-05-08 14:23:11,411 INFO    MainThread:39364 [wandb_init.py:setup_run_log_directory():724] Logging user logs to /Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_142311-o0i610q7/logs/debug.log
+2025-05-08 14:23:11,412 INFO    MainThread:39364 [wandb_init.py:setup_run_log_directory():725] Logging internal logs to /Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_142311-o0i610q7/logs/debug-internal.log
+2025-05-08 14:23:11,413 INFO    MainThread:39364 [wandb_init.py:monkeypatch_ipython():643] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x175445d80>
+2025-05-08 14:23:11,414 INFO    MainThread:39364 [wandb_init.py:init():852] calling init triggers
+2025-05-08 14:23:11,415 INFO    MainThread:39364 [wandb_init.py:init():857] wandb.init called with sweep_config: {}
+config: {'_wandb': {}}
+2025-05-08 14:23:11,415 INFO    MainThread:39364 [wandb_init.py:init():893] starting backend
+2025-05-08 14:23:11,415 INFO    MainThread:39364 [wandb_init.py:init():897] sending inform_init request
+2025-05-08 14:23:11,435 INFO    MainThread:39364 [backend.py:_multiprocessing_setup():101] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2025-05-08 14:23:11,435 INFO    MainThread:39364 [wandb_init.py:init():907] backend started and connected
+2025-05-08 14:23:11,543 INFO    MainThread:39364 [wandb_run.py:_label_probe_notebook():1369] probe notebook
+2025-05-08 14:23:11,558 INFO    MainThread:39364 [wandb_init.py:init():1002] updated telemetry
+2025-05-08 14:23:11,710 INFO    MainThread:39364 [wandb_init.py:init():1026] communicating run to backend with 90.0 second timeout
+2025-05-08 14:23:12,181 INFO    MainThread:39364 [wandb_init.py:init():1101] starting run threads in backend
+2025-05-08 14:23:12,313 INFO    MainThread:39364 [wandb_run.py:_console_start():2566] atexit reg
+2025-05-08 14:23:12,313 INFO    MainThread:39364 [wandb_run.py:_redirect():2414] redirect: wrap_raw
+2025-05-08 14:23:12,313 INFO    MainThread:39364 [wandb_run.py:_redirect():2483] Wrapping output streams.
+2025-05-08 14:23:12,314 INFO    MainThread:39364 [wandb_run.py:_redirect():2506] Redirects installed.
+2025-05-08 14:23:12,317 INFO    MainThread:39364 [wandb_init.py:init():1147] run started, returning control to user process
+2025-05-08 14:29:11,164 INFO    MainThread:39364 [wandb_run.py:_finish():2314] finishing run stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/o0i610q7
+2025-05-08 14:29:11,176 INFO    MainThread:39364 [jupyter.py:save_history():477] not saving jupyter history
+2025-05-08 14:29:11,176 INFO    MainThread:39364 [jupyter.py:save_ipynb():401] not saving jupyter notebook
+2025-05-08 14:29:11,176 INFO    MainThread:39364 [wandb_init.py:_jupyter_teardown():628] cleaning up jupyter logic
+2025-05-08 14:29:11,177 INFO    MainThread:39364 [wandb_run.py:_atexit_cleanup():2531] got exitcode: 0
+2025-05-08 14:29:11,178 INFO    MainThread:39364 [wandb_run.py:_restore():2513] restore
+2025-05-08 14:29:11,178 INFO    MainThread:39364 [wandb_run.py:_restore():2519] restore done
+2025-05-08 14:29:12,191 INFO    MainThread:39364 [wandb_run.py:_footer_history_summary_info():4160] rendering history
+2025-05-08 14:29:12,193 INFO    MainThread:39364 [wandb_run.py:_footer_history_summary_info():4192] rendering summary
+2025-05-08 14:29:12,195 INFO    MainThread:39364 [wandb_run.py:_footer_sync_info():4121] logging synced files

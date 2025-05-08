@@ -1,0 +1,16 @@
+{"time":"2025-05-08T08:55:30.873283+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_085530-24hb2bzy/logs/debug-core.log"}
+{"time":"2025-05-08T08:55:31.464035+02:00","level":"INFO","msg":"created new stream","id":"24hb2bzy"}
+{"time":"2025-05-08T08:55:31.464565+02:00","level":"INFO","msg":"stream: started","id":"24hb2bzy"}
+{"time":"2025-05-08T08:55:31.464629+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"24hb2bzy"}
+{"time":"2025-05-08T08:55:31.464883+02:00","level":"INFO","msg":"sender: started","stream_id":"24hb2bzy"}
+{"time":"2025-05-08T08:55:31.464689+02:00","level":"INFO","msg":"handler: started","stream_id":"24hb2bzy"}
+{"time":"2025-05-08T08:55:31.858105+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T09:01:32.817971+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T09:01:32.819625+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T09:01:33.615728+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T09:01:33.821422+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-08T09:01:33.844+02:00","level":"INFO","msg":"stream: closing","id":"24hb2bzy"}
+{"time":"2025-05-08T09:01:33.844061+02:00","level":"INFO","msg":"handler: closed","stream_id":"24hb2bzy"}
+{"time":"2025-05-08T09:01:33.844223+02:00","level":"INFO","msg":"sender: closed","stream_id":"24hb2bzy"}
+{"time":"2025-05-08T09:01:33.844216+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"24hb2bzy"}
+{"time":"2025-05-08T09:01:33.845976+02:00","level":"INFO","msg":"stream: closed","id":"24hb2bzy"}

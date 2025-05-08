@@ -1,0 +1,16 @@
+{"time":"2025-05-08T15:27:29.284336+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_152728-9jdzgs13/logs/debug-core.log"}
+{"time":"2025-05-08T15:27:29.601397+02:00","level":"INFO","msg":"created new stream","id":"9jdzgs13"}
+{"time":"2025-05-08T15:27:29.601441+02:00","level":"INFO","msg":"stream: started","id":"9jdzgs13"}
+{"time":"2025-05-08T15:27:29.601451+02:00","level":"INFO","msg":"handler: started","stream_id":"9jdzgs13"}
+{"time":"2025-05-08T15:27:29.601479+02:00","level":"INFO","msg":"sender: started","stream_id":"9jdzgs13"}
+{"time":"2025-05-08T15:27:29.601504+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"9jdzgs13"}
+{"time":"2025-05-08T15:27:29.85131+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T15:33:13.130091+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T15:33:13.130449+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T15:33:14.142121+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.491484125,"progress":"822B/822B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.490331958,"progress":"122B/122B"},{"desc":"uploading config.yaml","runtime_seconds":0.329672292,"progress":"465B/465B"}],"total_operations":3}}
+{"time":"2025-05-08T15:33:14.400988+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T15:33:14.598426+02:00","level":"INFO","msg":"stream: closing","id":"9jdzgs13"}
+{"time":"2025-05-08T15:33:14.598452+02:00","level":"INFO","msg":"handler: closed","stream_id":"9jdzgs13"}
+{"time":"2025-05-08T15:33:14.598478+02:00","level":"INFO","msg":"sender: closed","stream_id":"9jdzgs13"}
+{"time":"2025-05-08T15:33:14.598467+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"9jdzgs13"}
+{"time":"2025-05-08T15:33:14.598561+02:00","level":"INFO","msg":"stream: closed","id":"9jdzgs13"}

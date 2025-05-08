@@ -1,0 +1,17 @@
+{"time":"2025-05-08T12:13:47.167082+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_121347-3y5dyrcr/logs/debug-core.log"}
+{"time":"2025-05-08T12:13:47.590113+02:00","level":"INFO","msg":"created new stream","id":"3y5dyrcr"}
+{"time":"2025-05-08T12:13:47.590166+02:00","level":"INFO","msg":"stream: started","id":"3y5dyrcr"}
+{"time":"2025-05-08T12:13:47.590176+02:00","level":"INFO","msg":"handler: started","stream_id":"3y5dyrcr"}
+{"time":"2025-05-08T12:13:47.590188+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"3y5dyrcr"}
+{"time":"2025-05-08T12:13:47.590211+02:00","level":"INFO","msg":"sender: started","stream_id":"3y5dyrcr"}
+{"time":"2025-05-08T12:13:47.814764+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T12:29:52.308461+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.39.99:61672->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-08T12:30:19.723183+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T12:30:19.723373+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T12:30:20.744903+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.321812208,"progress":"465B/465B"}],"total_operations":1}}
+{"time":"2025-05-08T12:30:20.811803+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T12:30:21.043836+02:00","level":"INFO","msg":"stream: closing","id":"3y5dyrcr"}
+{"time":"2025-05-08T12:30:21.04387+02:00","level":"INFO","msg":"handler: closed","stream_id":"3y5dyrcr"}
+{"time":"2025-05-08T12:30:21.043915+02:00","level":"INFO","msg":"sender: closed","stream_id":"3y5dyrcr"}
+{"time":"2025-05-08T12:30:21.043902+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"3y5dyrcr"}
+{"time":"2025-05-08T12:30:21.044115+02:00","level":"INFO","msg":"stream: closed","id":"3y5dyrcr"}

@@ -1,0 +1,16 @@
+{"time":"2025-05-08T16:55:02.965238+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_165502-4bhl4h3f/logs/debug-core.log"}
+{"time":"2025-05-08T16:55:03.530938+02:00","level":"INFO","msg":"created new stream","id":"4bhl4h3f"}
+{"time":"2025-05-08T16:55:03.53123+02:00","level":"INFO","msg":"stream: started","id":"4bhl4h3f"}
+{"time":"2025-05-08T16:55:03.531646+02:00","level":"INFO","msg":"handler: started","stream_id":"4bhl4h3f"}
+{"time":"2025-05-08T16:55:03.531516+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4bhl4h3f"}
+{"time":"2025-05-08T16:55:03.531863+02:00","level":"INFO","msg":"sender: started","stream_id":"4bhl4h3f"}
+{"time":"2025-05-08T16:55:04.082765+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T17:02:40.265567+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T17:02:40.265783+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T17:02:41.286639+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.392683041,"progress":"822B/822B"},{"desc":"uploading config.yaml","runtime_seconds":0.190684792,"progress":"465B/465B"}],"total_operations":2}}
+{"time":"2025-05-08T17:02:41.419524+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T17:02:41.732572+02:00","level":"INFO","msg":"stream: closing","id":"4bhl4h3f"}
+{"time":"2025-05-08T17:02:41.732602+02:00","level":"INFO","msg":"handler: closed","stream_id":"4bhl4h3f"}
+{"time":"2025-05-08T17:02:41.732637+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4bhl4h3f"}
+{"time":"2025-05-08T17:02:41.732705+02:00","level":"INFO","msg":"sender: closed","stream_id":"4bhl4h3f"}
+{"time":"2025-05-08T17:02:41.73291+02:00","level":"INFO","msg":"stream: closed","id":"4bhl4h3f"}

@@ -1,0 +1,27 @@
+{"time":"2025-05-08T10:36:15.319425+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_103615-pudcs2dr/logs/debug-core.log"}
+{"time":"2025-05-08T10:36:15.855792+02:00","level":"INFO","msg":"created new stream","id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:15.85623+02:00","level":"INFO","msg":"stream: started","id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:15.856686+02:00","level":"INFO","msg":"handler: started","stream_id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:15.857166+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:15.857268+02:00","level":"INFO","msg":"sender: started","stream_id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:16.32496+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T10:36:37.312828+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:36:37.326611+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:36:37.341515+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:36:37.34503+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:36:37.354229+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:36:37.356964+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:36:37.363735+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:36:37.376006+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:36:37.395653+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:36:37.403939+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-08T10:36:37.411512+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-08T10:36:37.435277+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T10:36:37.435475+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T10:36:38.458241+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.206302334,"progress":"465B/465B"}],"total_operations":1}}
+{"time":"2025-05-08T10:36:38.585913+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T10:36:38.850345+02:00","level":"INFO","msg":"stream: closing","id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:38.850378+02:00","level":"INFO","msg":"handler: closed","stream_id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:38.850398+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:38.850439+02:00","level":"INFO","msg":"sender: closed","stream_id":"pudcs2dr"}
+{"time":"2025-05-08T10:36:38.850537+02:00","level":"INFO","msg":"stream: closed","id":"pudcs2dr"}

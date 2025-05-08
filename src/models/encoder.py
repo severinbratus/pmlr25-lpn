@@ -52,11 +52,9 @@ class DeterministicIOPairSetEncoder(nn.Module):
     
     """
     def __init__(self,
-                  phi = ReluNet(2, 8, 8),
-                rho_0 = ReluNet(8, 6, 4),
-                rho_1 = ReluNet(4, 2, 3)
-
-                    ):
+                  phi =ReluNet(2, 64, 64),
+                    rho_0=ReluNet(64, 64, 32),
+                    rho_1=ReluNet(32, 16, 3)):
         super().__init__()
         # Shared encoder phi
         self.phi = phi

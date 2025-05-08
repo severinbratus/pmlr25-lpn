@@ -1,0 +1,34 @@
+Total parameters: 4107
+torch.sum(mse).item()=36303.2421875
+torch.sum(mse).item()=36303.08984375
+Step 0, Loss: 3.8214
+Step 1000, Loss: 0.4591
+Step 2000, Loss: 0.1346
+Step 3000, Loss: 0.0500
+Step 4000, Loss: 0.0502
+Step 5000, Loss: 0.0255
+Step 6000, Loss: 0.0722
+Step 7000, Loss: 0.0788
+Step 8000, Loss: 0.1109
+Step 9000, Loss: 0.0285
+Step 10000, Loss: 0.1793
+Step 11000, Loss: 0.0934
+Step 12000, Loss: 0.1392
+Step 13000, Loss: 0.1212
+Step 14000, Loss: 0.0248
+Step 15000, Loss: 0.0827
+Step 16000, Loss: 0.0346
+Step 17000, Loss: 0.1501
+Step 18000, Loss: 0.0445
+Step 19000, Loss: 0.0469
+Step 20000, Loss: 0.0909
+Step 21000, Loss: 0.0310
+Step 22000, Loss: 0.0225
+Step 23000, Loss: 0.0341
+Step 24000, Loss: 0.0409
+Step 25000, Loss: 0.0448
+Step 26000, Loss: 0.0561
+Step 27000, Loss: 0.0413
+Step 28000, Loss: 0.0178
+Step 29000, Loss: 0.0193
+Step 30000, Loss: 0.0431

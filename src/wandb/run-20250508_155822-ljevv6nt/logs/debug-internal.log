@@ -1,0 +1,28 @@
+{"time":"2025-05-08T15:58:22.410624+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_155822-ljevv6nt/logs/debug-core.log"}
+{"time":"2025-05-08T15:58:22.787396+02:00","level":"INFO","msg":"created new stream","id":"ljevv6nt"}
+{"time":"2025-05-08T15:58:22.787452+02:00","level":"INFO","msg":"stream: started","id":"ljevv6nt"}
+{"time":"2025-05-08T15:58:22.787471+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ljevv6nt"}
+{"time":"2025-05-08T15:58:22.787543+02:00","level":"INFO","msg":"sender: started","stream_id":"ljevv6nt"}
+{"time":"2025-05-08T15:58:22.787678+02:00","level":"INFO","msg":"handler: started","stream_id":"ljevv6nt"}
+{"time":"2025-05-08T15:58:23.054047+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T16:05:54.704932+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ljevv6nt/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:05:56.960884+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ljevv6nt/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:01.735381+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ljevv6nt/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:11.394188+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ljevv6nt/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:12.404614+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.232.248:50979->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-05-08T16:06:14.4836+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:18.958956+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:28.590371+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:30.058257+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ljevv6nt/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:07:28.186338+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:07:45.497854+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ljevv6nt/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:08:02.522039+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:25:24.027637+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T16:25:24.027854+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T16:25:25.056185+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-08T16:25:25.799016+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T16:25:26.192457+02:00","level":"INFO","msg":"stream: closing","id":"ljevv6nt"}
+{"time":"2025-05-08T16:25:26.192526+02:00","level":"INFO","msg":"handler: closed","stream_id":"ljevv6nt"}
+{"time":"2025-05-08T16:25:26.192711+02:00","level":"INFO","msg":"sender: closed","stream_id":"ljevv6nt"}
+{"time":"2025-05-08T16:25:26.192668+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ljevv6nt"}
+{"time":"2025-05-08T16:25:26.197125+02:00","level":"INFO","msg":"stream: closed","id":"ljevv6nt"}

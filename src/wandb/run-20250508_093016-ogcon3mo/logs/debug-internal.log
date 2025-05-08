@@ -1,0 +1,16 @@
+{"time":"2025-05-08T09:30:16.135181+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_093016-ogcon3mo/logs/debug-core.log"}
+{"time":"2025-05-08T09:30:16.824628+02:00","level":"INFO","msg":"created new stream","id":"ogcon3mo"}
+{"time":"2025-05-08T09:30:16.824843+02:00","level":"INFO","msg":"stream: started","id":"ogcon3mo"}
+{"time":"2025-05-08T09:30:16.824917+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ogcon3mo"}
+{"time":"2025-05-08T09:30:16.825192+02:00","level":"INFO","msg":"handler: started","stream_id":"ogcon3mo"}
+{"time":"2025-05-08T09:30:16.825301+02:00","level":"INFO","msg":"sender: started","stream_id":"ogcon3mo"}
+{"time":"2025-05-08T09:30:17.069956+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T09:35:43.866992+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T09:35:43.867356+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T09:35:44.894459+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.567646416,"progress":"821B/821B"},{"desc":"uploading config.yaml","runtime_seconds":0.310014458,"progress":"465B/465B"}],"total_operations":2}}
+{"time":"2025-05-08T09:35:44.97621+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T09:35:45.189628+02:00","level":"INFO","msg":"stream: closing","id":"ogcon3mo"}
+{"time":"2025-05-08T09:35:45.189653+02:00","level":"INFO","msg":"handler: closed","stream_id":"ogcon3mo"}
+{"time":"2025-05-08T09:35:45.189666+02:00","level":"INFO","msg":"sender: closed","stream_id":"ogcon3mo"}
+{"time":"2025-05-08T09:35:45.18966+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ogcon3mo"}
+{"time":"2025-05-08T09:35:45.189716+02:00","level":"INFO","msg":"stream: closed","id":"ogcon3mo"}

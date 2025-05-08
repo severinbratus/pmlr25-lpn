@@ -1,0 +1,16 @@
+{"time":"2025-05-08T09:21:29.515324+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_092129-moft1g8d/logs/debug-core.log"}
+{"time":"2025-05-08T09:21:30.04667+02:00","level":"INFO","msg":"created new stream","id":"moft1g8d"}
+{"time":"2025-05-08T09:21:30.046868+02:00","level":"INFO","msg":"stream: started","id":"moft1g8d"}
+{"time":"2025-05-08T09:21:30.047347+02:00","level":"INFO","msg":"handler: started","stream_id":"moft1g8d"}
+{"time":"2025-05-08T09:21:30.047379+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"moft1g8d"}
+{"time":"2025-05-08T09:21:30.047423+02:00","level":"INFO","msg":"sender: started","stream_id":"moft1g8d"}
+{"time":"2025-05-08T09:21:30.437813+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T09:26:55.334542+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T09:26:55.335027+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T09:26:56.42442+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.540639666,"progress":"822B/822B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.539736917,"progress":"122B/122B"},{"desc":"uploading config.yaml","runtime_seconds":0.037465459,"progress":"465B/465B"}],"total_operations":3}}
+{"time":"2025-05-08T09:26:57.061397+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T09:26:57.29116+02:00","level":"INFO","msg":"stream: closing","id":"moft1g8d"}
+{"time":"2025-05-08T09:26:57.291197+02:00","level":"INFO","msg":"handler: closed","stream_id":"moft1g8d"}
+{"time":"2025-05-08T09:26:57.291217+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"moft1g8d"}
+{"time":"2025-05-08T09:26:57.291287+02:00","level":"INFO","msg":"sender: closed","stream_id":"moft1g8d"}
+{"time":"2025-05-08T09:26:57.292277+02:00","level":"INFO","msg":"stream: closed","id":"moft1g8d"}

@@ -1,0 +1,29 @@
+{"time":"2025-05-08T12:53:10.680393+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_125310-xfw3pm5m/logs/debug-core.log"}
+{"time":"2025-05-08T12:53:11.34107+02:00","level":"INFO","msg":"created new stream","id":"xfw3pm5m"}
+{"time":"2025-05-08T12:53:11.341184+02:00","level":"INFO","msg":"stream: started","id":"xfw3pm5m"}
+{"time":"2025-05-08T12:53:11.341415+02:00","level":"INFO","msg":"sender: started","stream_id":"xfw3pm5m"}
+{"time":"2025-05-08T12:53:11.341763+02:00","level":"INFO","msg":"handler: started","stream_id":"xfw3pm5m"}
+{"time":"2025-05-08T12:53:11.341801+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"xfw3pm5m"}
+{"time":"2025-05-08T12:53:11.721149+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T13:02:38.264926+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:02:40.386691+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:02:44.932991+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:02:54.707523+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:04:10.427167+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-08T13:05:32.568926+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-08T13:05:34.870617+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp 35.186.228.49:443: connect: operation timed out"}
+{"time":"2025-05-08T13:23:50.200321+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-08T13:23:55.543893+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:24:28.963189+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-08T13:25:28.441245+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:25:35.951255+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:26:59.780575+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:27:30.899468+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:28:43.216757+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:29:58.936006+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T13:30:27.830139+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T14:20:29.041105+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T14:20:57.892092+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T14:20:57.996547+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T14:20:57.996775+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 215-218","runtime_seconds":416.712268917,"error_status":"retrying: Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/xfw3pm5m/file_stream\": dial tcp: lookup api.wandb.ai: no such host"},{"desc":"updating run config","runtime_seconds":0.105182292}],"total_operations":2}}
+{"time":"2025-05-08T14:20:58.78432+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}

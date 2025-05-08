@@ -1,0 +1,29 @@
+{"time":"2025-05-08T16:00:54.911312+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_160054-evitgtey/logs/debug-core.log"}
+{"time":"2025-05-08T16:00:55.248923+02:00","level":"INFO","msg":"created new stream","id":"evitgtey"}
+{"time":"2025-05-08T16:00:55.249157+02:00","level":"INFO","msg":"stream: started","id":"evitgtey"}
+{"time":"2025-05-08T16:00:55.249176+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"evitgtey"}
+{"time":"2025-05-08T16:00:55.249222+02:00","level":"INFO","msg":"sender: started","stream_id":"evitgtey"}
+{"time":"2025-05-08T16:00:55.249254+02:00","level":"INFO","msg":"handler: started","stream_id":"evitgtey"}
+{"time":"2025-05-08T16:00:55.496949+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T16:05:57.149171+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/evitgtey/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:05:59.296201+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/evitgtey/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:03.688584+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/evitgtey/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:13.10964+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/evitgtey/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:14.8251+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.232.248:51083->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-05-08T16:06:17.203755+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:21.598874+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:29.537209+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/evitgtey/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:06:30.335688+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:07:30.120114+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:07:48.097246+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/evitgtey/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:23:25.125483+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-08T16:49:35.272561+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.39.99:51323->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-08T16:49:57.361031+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T16:49:57.361449+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T16:49:58.415223+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.173915417,"progress":"465B/465B"}],"total_operations":1}}
+{"time":"2025-05-08T16:49:58.610386+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T16:49:59.220281+02:00","level":"INFO","msg":"stream: closing","id":"evitgtey"}
+{"time":"2025-05-08T16:49:59.220337+02:00","level":"INFO","msg":"handler: closed","stream_id":"evitgtey"}
+{"time":"2025-05-08T16:49:59.220573+02:00","level":"INFO","msg":"sender: closed","stream_id":"evitgtey"}
+{"time":"2025-05-08T16:49:59.220515+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"evitgtey"}
+{"time":"2025-05-08T16:49:59.22141+02:00","level":"INFO","msg":"stream: closed","id":"evitgtey"}

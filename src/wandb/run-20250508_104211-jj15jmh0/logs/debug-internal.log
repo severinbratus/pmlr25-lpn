@@ -1,0 +1,17 @@
+{"time":"2025-05-08T10:42:11.133459+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250508_104211-jj15jmh0/logs/debug-core.log"}
+{"time":"2025-05-08T10:42:11.701725+02:00","level":"INFO","msg":"created new stream","id":"jj15jmh0"}
+{"time":"2025-05-08T10:42:11.701947+02:00","level":"INFO","msg":"stream: started","id":"jj15jmh0"}
+{"time":"2025-05-08T10:42:11.702183+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"jj15jmh0"}
+{"time":"2025-05-08T10:42:11.702345+02:00","level":"INFO","msg":"handler: started","stream_id":"jj15jmh0"}
+{"time":"2025-05-08T10:42:11.702441+02:00","level":"INFO","msg":"sender: started","stream_id":"jj15jmh0"}
+{"time":"2025-05-08T10:42:12.035091+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-08T10:42:28.03037+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/jj15jmh0/file_stream\": read tcp 10.5.39.99:59488->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-08T10:46:49.679108+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-08T10:46:49.680464+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-08T10:46:50.508736+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-08T10:46:50.741722+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-08T10:46:50.776918+02:00","level":"INFO","msg":"stream: closing","id":"jj15jmh0"}
+{"time":"2025-05-08T10:46:50.777351+02:00","level":"INFO","msg":"handler: closed","stream_id":"jj15jmh0"}
+{"time":"2025-05-08T10:46:50.777449+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"jj15jmh0"}
+{"time":"2025-05-08T10:46:50.777546+02:00","level":"INFO","msg":"sender: closed","stream_id":"jj15jmh0"}
+{"time":"2025-05-08T10:46:50.778492+02:00","level":"INFO","msg":"stream: closed","id":"jj15jmh0"}
