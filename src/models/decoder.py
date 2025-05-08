@@ -4,7 +4,6 @@ from models.utils import ReluNet
 class Decoder(ReluNet):
 
     def __init__(self, d_input=1, d_latent=3, ds_hidden=[32, 32], d_output=1):
-        # [32, 32]
         sizes = [d_latent + d_input] + ds_hidden + [d_output]
         super().__init__(*sizes)
         self.d_input = d_input

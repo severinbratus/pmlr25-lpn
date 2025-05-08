@@ -32,25 +32,7 @@ class IOPairSetEncoder(nn.Module):
 
 
 class DeterministicIOPairSetEncoder(nn.Module):
-    """DeepSet encoder for input-output pairs (N per batch)
-       phi=ReluNet(2, 32, 32),
-                 rho_0=ReluNet(32, 32, 16),
-                 rho_1=ReluNet(16, 8, 3)
-
-
-        phi=ReluNet(2, 64, 64),
-                    rho_0=ReluNet(64, 64, 32),
-                    rho_1=ReluNet(32, 16, 3)
-
-           phi = ReluNet(2, 16, 16),
-                rho_0 = ReluNet(16, 12, 8),
-                rho_1 = ReluNet(8, 4, 3)
-
-        phi = ReluNet(2, 8, 8),
-                rho_0 = ReluNet(8, 6, 4),
-                rho_1 = ReluNet(4, 2, 3)
-    
-    """
+    """DeepSet encoder for input-output pairs (N per batch)"""
     def __init__(self,
                   phi =ReluNet(2, 64, 64),
                     rho_0=ReluNet(64, 64, 32),
