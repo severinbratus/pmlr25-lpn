@@ -1,0 +1,11 @@
+{"time":"2025-05-14T18:55:06.850178+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250514_185506-3ei0s5s5/logs/debug-core.log"}
+{"time":"2025-05-14T18:55:08.227582+02:00","level":"INFO","msg":"created new stream","id":"3ei0s5s5"}
+{"time":"2025-05-14T18:55:08.227643+02:00","level":"INFO","msg":"stream: started","id":"3ei0s5s5"}
+{"time":"2025-05-14T18:55:08.227702+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"3ei0s5s5"}
+{"time":"2025-05-14T18:55:08.228005+02:00","level":"INFO","msg":"handler: started","stream_id":"3ei0s5s5"}
+{"time":"2025-05-14T18:55:08.228014+02:00","level":"INFO","msg":"sender: started","stream_id":"3ei0s5s5"}
+{"time":"2025-05-14T18:55:08.757179+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T18:57:24.662577+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/3ei0s5s5/file_stream\": write tcp 10.5.45.102:53182->35.186.228.49:443: write: broken pipe"}
+{"time":"2025-05-14T18:57:27.279078+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/3ei0s5s5/file_stream\": read tcp 10.5.45.102:53187->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-14T19:25:32.467588+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.45.102:53114->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-14T19:57:57.909267+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.45.102:53281->35.186.228.49:443: read: connection reset by peer"}

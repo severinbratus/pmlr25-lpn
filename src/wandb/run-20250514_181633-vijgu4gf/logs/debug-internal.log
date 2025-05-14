@@ -1,0 +1,17 @@
+{"time":"2025-05-14T18:16:33.729056+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250514_181633-vijgu4gf/logs/debug-core.log"}
+{"time":"2025-05-14T18:16:34.581706+02:00","level":"INFO","msg":"created new stream","id":"vijgu4gf"}
+{"time":"2025-05-14T18:16:34.581952+02:00","level":"INFO","msg":"stream: started","id":"vijgu4gf"}
+{"time":"2025-05-14T18:16:34.582248+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"vijgu4gf"}
+{"time":"2025-05-14T18:16:34.582309+02:00","level":"INFO","msg":"handler: started","stream_id":"vijgu4gf"}
+{"time":"2025-05-14T18:16:34.582385+02:00","level":"INFO","msg":"sender: started","stream_id":"vijgu4gf"}
+{"time":"2025-05-14T18:16:34.967511+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T18:20:05.909597+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/vijgu4gf/file_stream\": read tcp 10.5.45.102:52170->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-14T18:23:24.026806+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T18:23:24.026952+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T18:23:25.041976+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.287662959},{"desc":"uploading wandb-summary.json","runtime_seconds":0.28485925}],"total_operations":2}}
+{"time":"2025-05-14T18:23:25.466968+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T18:23:25.727389+02:00","level":"INFO","msg":"stream: closing","id":"vijgu4gf"}
+{"time":"2025-05-14T18:23:25.727441+02:00","level":"INFO","msg":"handler: closed","stream_id":"vijgu4gf"}
+{"time":"2025-05-14T18:23:25.727474+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"vijgu4gf"}
+{"time":"2025-05-14T18:23:25.72753+02:00","level":"INFO","msg":"sender: closed","stream_id":"vijgu4gf"}
+{"time":"2025-05-14T18:23:25.72769+02:00","level":"INFO","msg":"stream: closed","id":"vijgu4gf"}

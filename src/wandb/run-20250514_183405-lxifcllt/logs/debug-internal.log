@@ -1,0 +1,16 @@
+{"time":"2025-05-14T18:34:05.937355+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250514_183405-lxifcllt/logs/debug-core.log"}
+{"time":"2025-05-14T18:34:06.389099+02:00","level":"INFO","msg":"created new stream","id":"lxifcllt"}
+{"time":"2025-05-14T18:34:06.389154+02:00","level":"INFO","msg":"stream: started","id":"lxifcllt"}
+{"time":"2025-05-14T18:34:06.389179+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"lxifcllt"}
+{"time":"2025-05-14T18:34:06.389201+02:00","level":"INFO","msg":"handler: started","stream_id":"lxifcllt"}
+{"time":"2025-05-14T18:34:06.389221+02:00","level":"INFO","msg":"sender: started","stream_id":"lxifcllt"}
+{"time":"2025-05-14T18:34:06.717961+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-14T18:40:56.17124+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-14T18:40:56.171702+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-14T18:40:57.186519+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.273603625,"progress":"857B/857B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.271696875,"progress":"121B/121B"},{"desc":"uploading config.yaml","runtime_seconds":0.068926792,"progress":"465B/465B"}],"total_operations":3}}
+{"time":"2025-05-14T18:40:57.350199+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-14T18:40:57.978765+02:00","level":"INFO","msg":"stream: closing","id":"lxifcllt"}
+{"time":"2025-05-14T18:40:57.978811+02:00","level":"INFO","msg":"handler: closed","stream_id":"lxifcllt"}
+{"time":"2025-05-14T18:40:57.978891+02:00","level":"INFO","msg":"sender: closed","stream_id":"lxifcllt"}
+{"time":"2025-05-14T18:40:57.978868+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"lxifcllt"}
+{"time":"2025-05-14T18:40:57.979078+02:00","level":"INFO","msg":"stream: closed","id":"lxifcllt"}
