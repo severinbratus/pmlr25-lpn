@@ -53,7 +53,12 @@ class LPN(nn.Module):
             assert z_mu.shape == z_logvar.shape
             assert z_mu.shape == (B, N, H), f"{z_mu.shape} != {(B, N, H)}"
 
-        z_sample = self.sample_latents(z_mu, z_logvar)
+        if self.training:
+            z_sample = self.sample_latents(z_mu, z_logvar)
+        else:
+            # During evaluation, use the mean of the latent distribution
+            z_sample = z_mu
+            
         kl_loss = self.kl_divergence(z_mu, z_logvar)
 
         if K:
