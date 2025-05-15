@@ -1,0 +1,21 @@
+{"time":"2025-05-15T17:28:59.380083+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250515_172859-opuri2iv/logs/debug-core.log"}
+{"time":"2025-05-15T17:29:00.305543+02:00","level":"INFO","msg":"created new stream","id":"opuri2iv"}
+{"time":"2025-05-15T17:29:00.30572+02:00","level":"INFO","msg":"stream: started","id":"opuri2iv"}
+{"time":"2025-05-15T17:29:00.306195+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"opuri2iv"}
+{"time":"2025-05-15T17:29:00.306191+02:00","level":"INFO","msg":"sender: started","stream_id":"opuri2iv"}
+{"time":"2025-05-15T17:29:00.306104+02:00","level":"INFO","msg":"handler: started","stream_id":"opuri2iv"}
+{"time":"2025-05-15T17:29:00.625279+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-15T18:02:34.83446+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/opuri2iv/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T18:02:37.166855+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/opuri2iv/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T18:02:42.092588+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/opuri2iv/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-15T18:03:04.31459+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": net/http: request canceled (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-15T18:03:33.248055+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.182.178:58143->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-05-15T18:04:42.313819+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-15T18:04:42.314246+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-15T18:04:43.160593+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-15T18:04:43.33794+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 298-300, summary, console lines 33-33","runtime_seconds":0.176801375}],"total_operations":1}}
+{"time":"2025-05-15T18:04:43.415453+02:00","level":"INFO","msg":"stream: closing","id":"opuri2iv"}
+{"time":"2025-05-15T18:04:43.4155+02:00","level":"INFO","msg":"handler: closed","stream_id":"opuri2iv"}
+{"time":"2025-05-15T18:04:43.415556+02:00","level":"INFO","msg":"sender: closed","stream_id":"opuri2iv"}
+{"time":"2025-05-15T18:04:43.415522+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"opuri2iv"}
+{"time":"2025-05-15T18:04:43.415694+02:00","level":"INFO","msg":"stream: closed","id":"opuri2iv"}
