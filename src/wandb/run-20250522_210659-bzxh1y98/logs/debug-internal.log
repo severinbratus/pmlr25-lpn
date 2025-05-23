@@ -1,0 +1,16 @@
+{"time":"2025-05-22T21:06:59.066703+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250522_210659-bzxh1y98/logs/debug-core.log"}
+{"time":"2025-05-22T21:07:00.247167+02:00","level":"INFO","msg":"created new stream","id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:00.247506+02:00","level":"INFO","msg":"stream: started","id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:00.248061+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:00.248214+02:00","level":"INFO","msg":"handler: started","stream_id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:00.248185+02:00","level":"INFO","msg":"sender: started","stream_id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:00.648621+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T21:07:00.804537+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T21:07:00.804628+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T21:07:01.821417+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.149414959},{"desc":"uploading wandb-summary.json","runtime_seconds":0.149350958,"progress":"24B/24B"}],"total_operations":2}}
+{"time":"2025-05-22T21:07:02.19725+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T21:07:02.428069+02:00","level":"INFO","msg":"stream: closing","id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:02.428232+02:00","level":"INFO","msg":"handler: closed","stream_id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:02.428353+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:02.428386+02:00","level":"INFO","msg":"sender: closed","stream_id":"bzxh1y98"}
+{"time":"2025-05-22T21:07:02.428602+02:00","level":"INFO","msg":"stream: closed","id":"bzxh1y98"}

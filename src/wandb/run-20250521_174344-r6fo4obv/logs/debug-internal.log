@@ -1,0 +1,7 @@
+{"time":"2025-05-21T17:43:44.205819+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250521_174344-r6fo4obv/logs/debug-core.log"}
+{"time":"2025-05-21T17:43:44.556301+02:00","level":"INFO","msg":"created new stream","id":"r6fo4obv"}
+{"time":"2025-05-21T17:43:44.55646+02:00","level":"INFO","msg":"stream: started","id":"r6fo4obv"}
+{"time":"2025-05-21T17:43:44.55643+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"r6fo4obv"}
+{"time":"2025-05-21T17:43:44.556524+02:00","level":"INFO","msg":"handler: started","stream_id":"r6fo4obv"}
+{"time":"2025-05-21T17:43:44.556524+02:00","level":"INFO","msg":"sender: started","stream_id":"r6fo4obv"}
+{"time":"2025-05-21T17:43:44.956556+02:00","level":"INFO","msg":"Starting system monitor"}

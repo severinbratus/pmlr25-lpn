@@ -1,0 +1,16 @@
+{"time":"2025-05-21T20:06:33.05391+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250521_200633-gaxl2phj/logs/debug-core.log"}
+{"time":"2025-05-21T20:06:33.419977+02:00","level":"INFO","msg":"created new stream","id":"gaxl2phj"}
+{"time":"2025-05-21T20:06:33.420033+02:00","level":"INFO","msg":"handler: started","stream_id":"gaxl2phj"}
+{"time":"2025-05-21T20:06:33.420075+02:00","level":"INFO","msg":"stream: started","id":"gaxl2phj"}
+{"time":"2025-05-21T20:06:33.420086+02:00","level":"INFO","msg":"sender: started","stream_id":"gaxl2phj"}
+{"time":"2025-05-21T20:06:33.420174+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"gaxl2phj"}
+{"time":"2025-05-21T20:06:33.717638+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T20:18:06.433537+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T20:18:06.433967+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T20:18:07.451193+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading config.yaml","runtime_seconds":0.239088791,"progress":"465B/465B"}],"total_operations":1}}
+{"time":"2025-05-21T20:18:07.532574+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T20:18:07.797239+02:00","level":"INFO","msg":"stream: closing","id":"gaxl2phj"}
+{"time":"2025-05-21T20:18:07.797265+02:00","level":"INFO","msg":"handler: closed","stream_id":"gaxl2phj"}
+{"time":"2025-05-21T20:18:07.797307+02:00","level":"INFO","msg":"sender: closed","stream_id":"gaxl2phj"}
+{"time":"2025-05-21T20:18:07.7973+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"gaxl2phj"}
+{"time":"2025-05-21T20:18:07.797462+02:00","level":"INFO","msg":"stream: closed","id":"gaxl2phj"}

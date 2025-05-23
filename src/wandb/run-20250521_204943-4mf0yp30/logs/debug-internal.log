@@ -1,0 +1,17 @@
+{"time":"2025-05-21T20:49:43.065404+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250521_204943-4mf0yp30/logs/debug-core.log"}
+{"time":"2025-05-21T20:49:43.343657+02:00","level":"INFO","msg":"created new stream","id":"4mf0yp30"}
+{"time":"2025-05-21T20:49:43.343711+02:00","level":"INFO","msg":"stream: started","id":"4mf0yp30"}
+{"time":"2025-05-21T20:49:43.343716+02:00","level":"INFO","msg":"handler: started","stream_id":"4mf0yp30"}
+{"time":"2025-05-21T20:49:43.343751+02:00","level":"INFO","msg":"sender: started","stream_id":"4mf0yp30"}
+{"time":"2025-05-21T20:49:43.343757+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"4mf0yp30"}
+{"time":"2025-05-21T20:49:43.63222+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T20:53:59.607416+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/4mf0yp30/file_stream\": read tcp 10.5.39.2:57486->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-21T21:08:31.901257+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T21:08:31.901769+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T21:08:32.930551+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.083089625,"progress":"858B/858B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.081410542,"progress":"124B/124B"}],"total_operations":2}}
+{"time":"2025-05-21T21:08:33.373607+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T21:08:33.625538+02:00","level":"INFO","msg":"stream: closing","id":"4mf0yp30"}
+{"time":"2025-05-21T21:08:33.625576+02:00","level":"INFO","msg":"handler: closed","stream_id":"4mf0yp30"}
+{"time":"2025-05-21T21:08:33.625625+02:00","level":"INFO","msg":"sender: closed","stream_id":"4mf0yp30"}
+{"time":"2025-05-21T21:08:33.625609+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"4mf0yp30"}
+{"time":"2025-05-21T21:08:33.625767+02:00","level":"INFO","msg":"stream: closed","id":"4mf0yp30"}

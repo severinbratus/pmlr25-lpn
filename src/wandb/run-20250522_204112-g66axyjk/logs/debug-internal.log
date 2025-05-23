@@ -1,0 +1,19 @@
+{"time":"2025-05-22T20:41:12.974055+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250522_204112-g66axyjk/logs/debug-core.log"}
+{"time":"2025-05-22T20:41:13.32169+02:00","level":"INFO","msg":"created new stream","id":"g66axyjk"}
+{"time":"2025-05-22T20:41:13.321824+02:00","level":"INFO","msg":"stream: started","id":"g66axyjk"}
+{"time":"2025-05-22T20:41:13.321918+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"g66axyjk"}
+{"time":"2025-05-22T20:41:13.321934+02:00","level":"INFO","msg":"handler: started","stream_id":"g66axyjk"}
+{"time":"2025-05-22T20:41:13.32215+02:00","level":"INFO","msg":"sender: started","stream_id":"g66axyjk"}
+{"time":"2025-05-22T20:41:13.713377+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T20:41:59.52713+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/g66axyjk/file_stream\": read tcp 10.5.43.74:64158->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T20:45:59.562676+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/g66axyjk/file_stream\": write tcp 10.5.43.74:64403->35.186.228.49:443: write: broken pipe"}
+{"time":"2025-05-22T20:47:14.552771+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/g66axyjk/file_stream\": read tcp 10.5.43.74:64488->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T20:49:54.15059+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T20:49:54.151044+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T20:49:55.139376+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T20:49:55.1823+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading history steps 294-300, summary, console lines 33-33","runtime_seconds":0.0421775}],"total_operations":1}}
+{"time":"2025-05-22T20:49:55.438043+02:00","level":"INFO","msg":"stream: closing","id":"g66axyjk"}
+{"time":"2025-05-22T20:49:55.438085+02:00","level":"INFO","msg":"handler: closed","stream_id":"g66axyjk"}
+{"time":"2025-05-22T20:49:55.438129+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"g66axyjk"}
+{"time":"2025-05-22T20:49:55.43816+02:00","level":"INFO","msg":"sender: closed","stream_id":"g66axyjk"}
+{"time":"2025-05-22T20:49:55.438328+02:00","level":"INFO","msg":"stream: closed","id":"g66axyjk"}

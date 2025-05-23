@@ -1,0 +1,44 @@
+{
+  "os":  "macOS-10.16-x86_64-i386-64bit",
+  "python":  "CPython 3.10.16",
+  "startedAt":  "2025-05-22T18:21:56.346588Z",
+  "program":  "/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/lpn4sine.ipynb",
+  "codePath":  "src/lpn4sine.ipynb",
+  "git":  {
+    "remote":  "https://github.com/severinbratus/pmlr25-lpn.git",
+    "commit":  "1858e1c3b987526c809d5c131cf7d516118da62a"
+  },
+  "email":  "stephen.marcou@gmail.com",
+  "root":  "/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src",
+  "host":  "student-net-cx-1794.intern.ethz.ch",
+  "executable":  "/opt/miniconda3/envs/lpn_py310/bin/python",
+  "codePathLocal":  "lpn4sine.ipynb",
+  "cpu_count":  8,
+  "cpu_count_logical":  8,
+  "disk":  {
+    "/":  {
+      "total":  "245107195904",
+      "used":  "230097285120"
+    },
+    "/System/Volumes/Data":  {
+      "total":  "245107195904",
+      "used":  "230097285120"
+    }
+  },
+  "memory":  {
+    "total":  "8589934592"
+  },
+  "cpu":  {
+    "count":  8,
+    "countLogical":  8
+  },
+  "apple":  {
+    "name":  "Unknown",
+    "ecpuCores":  4,
+    "pcpuCores":  4,
+    "gpuCores":  8,
+    "memoryGb":  8,
+    "swapTotalBytes":  "8589934592",
+    "ramTotalBytes":  "8589934592"
+  }
+}

@@ -1,0 +1,29 @@
+{"time":"2025-05-22T12:54:22.124928+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250522_125422-hri2hsuq/logs/debug-core.log"}
+{"time":"2025-05-22T12:54:22.486438+02:00","level":"INFO","msg":"created new stream","id":"hri2hsuq"}
+{"time":"2025-05-22T12:54:22.486519+02:00","level":"INFO","msg":"stream: started","id":"hri2hsuq"}
+{"time":"2025-05-22T12:54:22.486569+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"hri2hsuq"}
+{"time":"2025-05-22T12:54:22.486572+02:00","level":"INFO","msg":"sender: started","stream_id":"hri2hsuq"}
+{"time":"2025-05-22T12:54:22.486589+02:00","level":"INFO","msg":"handler: started","stream_id":"hri2hsuq"}
+{"time":"2025-05-22T12:54:22.855226+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T12:55:01.338836+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.34632+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-22T12:55:01.354033+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.356414+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-22T12:55:01.387051+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.398423+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-22T12:55:01.405157+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.407642+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-22T12:55:01.415571+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.421954+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-22T12:55:01.43941+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.444828+02:00","level":"INFO","msg":"Resuming system monitor"}
+{"time":"2025-05-22T12:55:01.450908+02:00","level":"INFO","msg":"Pausing system monitor"}
+{"time":"2025-05-22T12:55:01.460526+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T12:55:01.460645+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T12:55:02.26863+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T12:55:02.47027+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading summary, console lines 1-2","runtime_seconds":0.201327084}],"total_operations":1}}
+{"time":"2025-05-22T12:55:02.517532+02:00","level":"INFO","msg":"stream: closing","id":"hri2hsuq"}
+{"time":"2025-05-22T12:55:02.517572+02:00","level":"INFO","msg":"handler: closed","stream_id":"hri2hsuq"}
+{"time":"2025-05-22T12:55:02.517597+02:00","level":"INFO","msg":"sender: closed","stream_id":"hri2hsuq"}
+{"time":"2025-05-22T12:55:02.517588+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"hri2hsuq"}
+{"time":"2025-05-22T12:55:02.517717+02:00","level":"INFO","msg":"stream: closed","id":"hri2hsuq"}

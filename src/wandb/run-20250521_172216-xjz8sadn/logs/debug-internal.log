@@ -1,0 +1,17 @@
+{"time":"2025-05-21T17:22:16.219103+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250521_172216-xjz8sadn/logs/debug-core.log"}
+{"time":"2025-05-21T17:22:16.540338+02:00","level":"INFO","msg":"created new stream","id":"xjz8sadn"}
+{"time":"2025-05-21T17:22:16.540394+02:00","level":"INFO","msg":"stream: started","id":"xjz8sadn"}
+{"time":"2025-05-21T17:22:16.540404+02:00","level":"INFO","msg":"handler: started","stream_id":"xjz8sadn"}
+{"time":"2025-05-21T17:22:16.540412+02:00","level":"INFO","msg":"sender: started","stream_id":"xjz8sadn"}
+{"time":"2025-05-21T17:22:16.540458+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"xjz8sadn"}
+{"time":"2025-05-21T17:22:16.798596+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T17:23:17.541402+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/xjz8sadn/file_stream\": read tcp 10.5.39.2:53232->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-21T17:29:40.914497+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T17:29:40.914785+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T17:29:41.680739+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T17:29:41.896986+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-21T17:29:41.906885+02:00","level":"INFO","msg":"stream: closing","id":"xjz8sadn"}
+{"time":"2025-05-21T17:29:41.906913+02:00","level":"INFO","msg":"handler: closed","stream_id":"xjz8sadn"}
+{"time":"2025-05-21T17:29:41.906946+02:00","level":"INFO","msg":"sender: closed","stream_id":"xjz8sadn"}
+{"time":"2025-05-21T17:29:41.90693+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"xjz8sadn"}
+{"time":"2025-05-21T17:29:41.90701+02:00","level":"INFO","msg":"stream: closed","id":"xjz8sadn"}

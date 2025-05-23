@@ -1,0 +1,53 @@
+{"time":"2025-05-22T12:55:02.520844+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250522_125501-ua55u2og/logs/debug-core.log"}
+{"time":"2025-05-22T12:55:02.810365+02:00","level":"INFO","msg":"created new stream","id":"ua55u2og"}
+{"time":"2025-05-22T12:55:02.810411+02:00","level":"INFO","msg":"stream: started","id":"ua55u2og"}
+{"time":"2025-05-22T12:55:02.810433+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"ua55u2og"}
+{"time":"2025-05-22T12:55:02.810458+02:00","level":"INFO","msg":"sender: started","stream_id":"ua55u2og"}
+{"time":"2025-05-22T12:55:02.810478+02:00","level":"INFO","msg":"handler: started","stream_id":"ua55u2og"}
+{"time":"2025-05-22T12:55:03.037939+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T13:00:45.81971+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.32.239:60647->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T13:02:23.749508+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:02:26.176518+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:02:30.660453+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:03:15.915116+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:03:33.512169+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:04:38.567554+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.32.239:60720->35.186.228.49:443: read: can't assign requested address"}
+{"time":"2025-05-22T13:04:40.634172+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:05:34.133789+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:05:42.800182+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:05:47.918197+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:06:39.374836+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:23:31.434085+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T13:40:56.577616+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T14:15:36.79693+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T14:15:48.179674+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T14:18:17.658923+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T15:11:19.850583+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.85.13:61012->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T15:24:55.858664+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.85.13:61059->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T15:38:24.753178+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.85.13:61085->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T15:52:03.584749+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.85.13:61123->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T16:05:16.520134+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": context deadline exceeded (Client.Timeout exceeded while awaiting headers)"}
+{"time":"2025-05-22T16:05:21.396838+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.85.13:61150->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T16:05:22.537551+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:05:25.169054+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:05:30.128551+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:05:30.576344+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:05:52.25565+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:06:01.215512+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:06:08.849319+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:24:54.938094+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T16:25:01.444639+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T17:13:02.042183+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T17:13:04.438643+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T17:13:06.266211+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": read tcp 10.5.43.74:61292->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T17:13:08.543293+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/ua55u2og/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T17:13:08.665358+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/graphql\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-22T17:13:32.091975+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T17:13:41.522889+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T17:13:41.523739+02:00","level":"INFO","msg":"handler: operation stats","stats":{}}
+{"time":"2025-05-22T17:13:42.183826+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T17:13:42.579487+02:00","level":"INFO","msg":"stream: closing","id":"ua55u2og"}
+{"time":"2025-05-22T17:13:42.579592+02:00","level":"INFO","msg":"handler: closed","stream_id":"ua55u2og"}
+{"time":"2025-05-22T17:13:42.579872+02:00","level":"INFO","msg":"sender: closed","stream_id":"ua55u2og"}
+{"time":"2025-05-22T17:13:42.579662+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"ua55u2og"}
+{"time":"2025-05-22T17:13:42.579979+02:00","level":"INFO","msg":"stream: closed","id":"ua55u2og"}

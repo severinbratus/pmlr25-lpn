@@ -1,0 +1,16 @@
+{"time":"2025-05-21T17:43:40.278699+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250521_174340-obt2of9z/logs/debug-core.log"}
+{"time":"2025-05-21T17:43:41.989498+02:00","level":"INFO","msg":"created new stream","id":"obt2of9z"}
+{"time":"2025-05-21T17:43:41.989748+02:00","level":"INFO","msg":"stream: started","id":"obt2of9z"}
+{"time":"2025-05-21T17:43:41.990018+02:00","level":"INFO","msg":"handler: started","stream_id":"obt2of9z"}
+{"time":"2025-05-21T17:43:41.990139+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"obt2of9z"}
+{"time":"2025-05-21T17:43:41.990245+02:00","level":"INFO","msg":"sender: started","stream_id":"obt2of9z"}
+{"time":"2025-05-21T17:43:42.324098+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T17:43:42.654903+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T17:43:42.654955+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T17:43:43.65849+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.114466834,"progress":"24B/24B"},{"desc":"uploading output.log","runtime_seconds":0.114457209},{"desc":"uploading config.yaml","runtime_seconds":0.048448916,"progress":"465B/465B"}],"total_operations":3}}
+{"time":"2025-05-21T17:43:43.893213+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T17:43:44.195756+02:00","level":"INFO","msg":"stream: closing","id":"obt2of9z"}
+{"time":"2025-05-21T17:43:44.195799+02:00","level":"INFO","msg":"handler: closed","stream_id":"obt2of9z"}
+{"time":"2025-05-21T17:43:44.195815+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"obt2of9z"}
+{"time":"2025-05-21T17:43:44.195832+02:00","level":"INFO","msg":"sender: closed","stream_id":"obt2of9z"}
+{"time":"2025-05-21T17:43:44.195914+02:00","level":"INFO","msg":"stream: closed","id":"obt2of9z"}

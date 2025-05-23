@@ -1,0 +1,3 @@
+Total parameters: 2630
+<class 'sine_data_generator.SineDataGenerator'>
+torch.Size([25, 20, 1])

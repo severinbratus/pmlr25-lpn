@@ -1,0 +1,4 @@
+Total parameters: 2427
+torch.sum(mse).item()=50521.3671875
+torch.sum(mse).item()=50521.19921875
+Step 0, Loss: 2.6614

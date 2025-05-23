@@ -1,0 +1,21 @@
+{"time":"2025-05-21T17:49:29.85597+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250521_174929-oeg4ygmx/logs/debug-core.log"}
+{"time":"2025-05-21T17:49:30.216754+02:00","level":"INFO","msg":"created new stream","id":"oeg4ygmx"}
+{"time":"2025-05-21T17:49:30.216807+02:00","level":"INFO","msg":"stream: started","id":"oeg4ygmx"}
+{"time":"2025-05-21T17:49:30.21683+02:00","level":"INFO","msg":"sender: started","stream_id":"oeg4ygmx"}
+{"time":"2025-05-21T17:49:30.216879+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"oeg4ygmx"}
+{"time":"2025-05-21T17:49:30.216851+02:00","level":"INFO","msg":"handler: started","stream_id":"oeg4ygmx"}
+{"time":"2025-05-21T17:49:30.599131+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-21T18:00:08.902481+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/oeg4ygmx/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-21T18:00:11.149417+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/oeg4ygmx/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-21T18:00:16.114405+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/oeg4ygmx/file_stream\": dial tcp: lookup api.wandb.ai: no such host"}
+{"time":"2025-05-21T18:06:25.474945+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/oeg4ygmx/file_stream\": read tcp 10.5.39.2:54307->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-21T18:06:55.543355+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/lpn4sine_cf_maml/oeg4ygmx/file_stream\": read tcp 10.5.39.2:54326->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-21T18:07:18.781486+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-21T18:07:18.781761+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-21T18:07:19.823425+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.546200875,"progress":"858B/858B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.544662458,"progress":"123B/123B"}],"total_operations":2}}
+{"time":"2025-05-21T18:07:20.703582+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-21T18:07:21.262302+02:00","level":"INFO","msg":"stream: closing","id":"oeg4ygmx"}
+{"time":"2025-05-21T18:07:21.262351+02:00","level":"INFO","msg":"handler: closed","stream_id":"oeg4ygmx"}
+{"time":"2025-05-21T18:07:21.262472+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"oeg4ygmx"}
+{"time":"2025-05-21T18:07:21.262503+02:00","level":"INFO","msg":"sender: closed","stream_id":"oeg4ygmx"}
+{"time":"2025-05-21T18:07:21.262788+02:00","level":"INFO","msg":"stream: closed","id":"oeg4ygmx"}

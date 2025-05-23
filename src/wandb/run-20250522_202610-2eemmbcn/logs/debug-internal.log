@@ -1,0 +1,16 @@
+{"time":"2025-05-22T20:26:10.95797+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250522_202610-2eemmbcn/logs/debug-core.log"}
+{"time":"2025-05-22T20:26:11.231777+02:00","level":"INFO","msg":"created new stream","id":"2eemmbcn"}
+{"time":"2025-05-22T20:26:11.231821+02:00","level":"INFO","msg":"stream: started","id":"2eemmbcn"}
+{"time":"2025-05-22T20:26:11.231829+02:00","level":"INFO","msg":"handler: started","stream_id":"2eemmbcn"}
+{"time":"2025-05-22T20:26:11.231838+02:00","level":"INFO","msg":"sender: started","stream_id":"2eemmbcn"}
+{"time":"2025-05-22T20:26:11.231861+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"2eemmbcn"}
+{"time":"2025-05-22T20:26:11.565106+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T20:34:25.27341+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T20:34:25.273799+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T20:34:26.293229+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading wandb-summary.json","runtime_seconds":0.5234565,"progress":"123B/123B"},{"desc":"uploading config.yaml","runtime_seconds":0.228982167,"progress":"465B/465B"}],"total_operations":2}}
+{"time":"2025-05-22T20:34:26.680096+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T20:34:26.959183+02:00","level":"INFO","msg":"stream: closing","id":"2eemmbcn"}
+{"time":"2025-05-22T20:34:26.959214+02:00","level":"INFO","msg":"handler: closed","stream_id":"2eemmbcn"}
+{"time":"2025-05-22T20:34:26.95923+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2eemmbcn"}
+{"time":"2025-05-22T20:34:26.959256+02:00","level":"INFO","msg":"sender: closed","stream_id":"2eemmbcn"}
+{"time":"2025-05-22T20:34:26.95941+02:00","level":"INFO","msg":"stream: closed","id":"2eemmbcn"}

@@ -1,0 +1,17 @@
+{"time":"2025-05-22T17:17:57.784507+02:00","level":"INFO","msg":"stream: starting","core version":"0.19.10","symlink path":"/Users/stephenmarcou/Documents/ETH Zurich/Semester 2/AI Center Projects in Machine Learning/pmlr25-lpn/src/wandb/run-20250522_171757-2ghqe95o/logs/debug-core.log"}
+{"time":"2025-05-22T17:17:59.139363+02:00","level":"INFO","msg":"created new stream","id":"2ghqe95o"}
+{"time":"2025-05-22T17:17:59.140066+02:00","level":"INFO","msg":"stream: started","id":"2ghqe95o"}
+{"time":"2025-05-22T17:17:59.140398+02:00","level":"INFO","msg":"handler: started","stream_id":"2ghqe95o"}
+{"time":"2025-05-22T17:17:59.140464+02:00","level":"INFO","msg":"writer: Do: started","stream_id":"2ghqe95o"}
+{"time":"2025-05-22T17:17:59.140597+02:00","level":"INFO","msg":"sender: started","stream_id":"2ghqe95o"}
+{"time":"2025-05-22T17:17:59.429353+02:00","level":"INFO","msg":"Starting system monitor"}
+{"time":"2025-05-22T17:25:45.133536+02:00","level":"INFO","msg":"api: retrying error","error":"Post \"https://api.wandb.ai/files/stephen-marcou-eth-z-rich/deterministic_lpn4sine_cf_maml/2ghqe95o/file_stream\": read tcp 10.5.43.74:61680->35.186.228.49:443: read: connection reset by peer"}
+{"time":"2025-05-22T17:25:57.832244+02:00","level":"INFO","msg":"Stopping system monitor"}
+{"time":"2025-05-22T17:25:57.832611+02:00","level":"INFO","msg":"Stopped system monitor"}
+{"time":"2025-05-22T17:25:58.882269+02:00","level":"INFO","msg":"handler: operation stats","stats":{"operations":[{"desc":"uploading output.log","runtime_seconds":0.125854125,"progress":"857B/857B"},{"desc":"uploading wandb-summary.json","runtime_seconds":0.123277958,"progress":"121B/121B"}],"total_operations":2}}
+{"time":"2025-05-22T17:25:59.60751+02:00","level":"INFO","msg":"fileTransfer: Close: file transfer manager closed"}
+{"time":"2025-05-22T17:25:59.880715+02:00","level":"INFO","msg":"stream: closing","id":"2ghqe95o"}
+{"time":"2025-05-22T17:25:59.880742+02:00","level":"INFO","msg":"handler: closed","stream_id":"2ghqe95o"}
+{"time":"2025-05-22T17:25:59.880769+02:00","level":"INFO","msg":"sender: closed","stream_id":"2ghqe95o"}
+{"time":"2025-05-22T17:25:59.880755+02:00","level":"INFO","msg":"writer: Close: closed","stream_id":"2ghqe95o"}
+{"time":"2025-05-22T17:25:59.880941+02:00","level":"INFO","msg":"stream: closed","id":"2ghqe95o"}
